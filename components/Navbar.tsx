@@ -15,10 +15,10 @@ const Navbar = () => {
           </div>
 
           <div className="flex px-2 ml-auto">
-            <Link href={'/auth/register'}>Register</Link>
+            <Link href={'/register'}>Register</Link>
           </div>
           <div className="flex px-2">
-            <Link href={'/auth/login'}>Login</Link>
+            <Link href={'/login'}>Login</Link>
           </div>
         </nav>
       </div>
