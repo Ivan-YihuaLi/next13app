@@ -3,8 +3,12 @@ import Link from 'next/link';
 const Footer = () => {
   return (
     <footer>
-      <div className={'sticky bottom-0 bg-white text-black'}>
-        <div className={'px-2'}>
+      <div
+        className={
+          'flex h-[36px] sticky bottom-0 bg-white text-black [&>div]:items-center'
+        }
+      >
+        <div className={'flex px-2'}>
           <Link href={'/about'}>About</Link>
         </div>
       </div>
