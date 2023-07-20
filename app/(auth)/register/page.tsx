@@ -1,3 +1,9 @@
+import RegisterForm from '@/components/Forms/RegisterForm';
+
 export default function Register() {
-  return <div>Edit auth/register/page.tsx to create a valid register page</div>;
+  return (
+    <>
+      <RegisterForm />
+    </>
+  );
 }
