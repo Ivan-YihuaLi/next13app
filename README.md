@@ -1,3 +1,3 @@
 # next13app
 
-A refresh project for the old NeighborGood app via Nextjs Version 13
+A refresh project for the old NeighborGood app via Nextjs Version 13(for learning purpose)
