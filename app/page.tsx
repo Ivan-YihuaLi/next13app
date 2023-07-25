@@ -3,12 +3,10 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-white text-black">
+    <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-white text-black">
+      <h1>NeighborGood</h1>
+      <p>Strengthening Communities, one step at a time!</p>
       <div>
-        <h1>NeighborGood</h1>
-        <p>Strengthening Communities, one step at a time!</p>
-      </div>
-      <div className="btn-primary">
         <Link href={'/register'}>
           <button>Get Started</button>
         </Link>
