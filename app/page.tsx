@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-white text-black">
+    <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-white text-white">
       <h1>NeighborGood</h1>
       <p>Strengthening Communities, one step at a time!</p>
       <div>
