@@ -10,6 +10,12 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+enum userType {
+  USER
+  AMDIN
+  EDITOR
+}
+
 model User {
   id                 String    @id @default(cuid())
   email              String    @unique
@@ -17,6 +23,7 @@ model User {
   email_verification DateTime?
   image              String?
   Posts              Post[]
+  type               userType
 }
 
 model Post {
